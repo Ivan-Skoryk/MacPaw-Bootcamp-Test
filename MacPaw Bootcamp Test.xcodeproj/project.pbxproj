@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B17027A2A98D37D00C8E4F9 /* LossesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1702792A98D37D00C8E4F9 /* LossesViewModel.swift */; };
+		4B23AFA02A9794CB0034A2E6 /* LossesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AF9E2A9794CB0034A2E6 /* LossesViewController.swift */; };
+		4B23AFA62A97953F0034A2E6 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFA42A97953F0034A2E6 /* SwitchTableViewCell.swift */; };
+		4B23AFA72A97953F0034A2E6 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B23AFA52A97953F0034A2E6 /* SwitchTableViewCell.xib */; };
+		4B23AFAA2A979C460034A2E6 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFA82A979C460034A2E6 /* DatePickerTableViewCell.swift */; };
+		4B23AFAB2A979C460034A2E6 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B23AFA92A979C460034A2E6 /* DatePickerTableViewCell.xib */; };
+		4B23AFB02A97C5070034A2E6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFAF2A97C5070034A2E6 /* MainViewModel.swift */; };
+		4B23AFB22A97EDF50034A2E6 /* PersonnelLossesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFB12A97EDF50034A2E6 /* PersonnelLossesDTO.swift */; };
+		4B23AFB42A97F2720034A2E6 /* EquipmentLossesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFB32A97F2720034A2E6 /* EquipmentLossesDTO.swift */; };
+		4B23AFB62A97F28A0034A2E6 /* OryxEquipmentLossesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFB52A97F2890034A2E6 /* OryxEquipmentLossesDTO.swift */; };
+		4B23AFB92A97F3120034A2E6 /* JSONReaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23AFB82A97F3120034A2E6 /* JSONReaderService.swift */; };
 		4B2DF5272A94B57500427DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DF5262A94B57500427DB5 /* AppDelegate.swift */; };
 		4B2DF5292A94B57500427DB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DF5282A94B57500427DB5 /* SceneDelegate.swift */; };
-		4B2DF52B2A94B57500427DB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DF52A2A94B57500427DB5 /* ViewController.swift */; };
-		4B2DF52E2A94B57500427DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF52C2A94B57500427DB5 /* Main.storyboard */; };
 		4B2DF5302A94B57800427DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF52F2A94B57800427DB5 /* Assets.xcassets */; };
 		4B2DF5332A94B57800427DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF5312A94B57800427DB5 /* LaunchScreen.storyboard */; };
+		4B2DF53C2A94BA0A00427DB5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DF53A2A94BA0A00427DB5 /* MainViewController.swift */; };
+		4B2DF53D2A94BA0A00427DB5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF53B2A94BA0A00427DB5 /* MainViewController.xib */; };
+		4B2DF5462A94C6B900427DB5 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF5422A94C6B900427DB5 /* russia_losses_personnel.json */; };
+		4B2DF5472A94C6B900427DB5 /* russia_losses_equipment_correction.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF5432A94C6B900427DB5 /* russia_losses_equipment_correction.json */; };
+		4B2DF5482A94C6B900427DB5 /* russia_losses_equipment_oryx.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF5442A94C6B900427DB5 /* russia_losses_equipment_oryx.json */; };
+		4B2DF5492A94C6B900427DB5 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DF5452A94C6B900427DB5 /* russia_losses_equipment.json */; };
+		4B5CD9522A9A35CA006E345F /* FormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD9512A9A35CA006E345F /* FormatterProtocol.swift */; };
+		4B5CD9542A9A3624006E345F /* PersonelLossesDTOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD9532A9A3624006E345F /* PersonelLossesDTOFormatter.swift */; };
+		4B5CD95A2A9A65FE006E345F /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD9582A9A65FE006E345F /* DataTableViewCell.swift */; };
+		4B5CD95B2A9A65FE006E345F /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CD9592A9A65FE006E345F /* DataTableViewCell.xib */; };
+		4B5CD95D2A9A877B006E345F /* EquipmentLossesDTOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD95C2A9A877B006E345F /* EquipmentLossesDTOFormatter.swift */; };
+		4B5CD95F2A9A894A006E345F /* PersonnelLossesPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD95E2A9A894A006E345F /* PersonnelLossesPresentationModel.swift */; };
+		4B5CD9612A9A8B54006E345F /* EquipmentLossesPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD9602A9A8B54006E345F /* EquipmentLossesPresentationModel.swift */; };
+		4B5CD9642A9A93B6006E345F /* Optional+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CD9632A9A93B6006E345F /* Optional+Math.swift */; };
+		4BC093382A9B80E8002889CD /* OryxGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC093372A9B80E8002889CD /* OryxGroupsViewController.swift */; };
+		4BC0933B2A9B8141002889CD /* OryxGroupsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0933A2A9B8141002889CD /* OryxGroupsViewModel.swift */; };
+		4BC093412A9B8A9B002889CD /* OryxDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC093402A9B8A9B002889CD /* OryxDetailsViewController.swift */; };
+		4BC093472A9B8D6E002889CD /* OryxDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC093452A9B8D6E002889CD /* OryxDetailsTableViewCell.swift */; };
+		4BC093482A9B8D6E002889CD /* OryxDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC093462A9B8D6E002889CD /* OryxDetailsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1702792A98D37D00C8E4F9 /* LossesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesViewModel.swift; sourceTree = "<group>"; };
+		4B23AF9E2A9794CB0034A2E6 /* LossesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesViewController.swift; sourceTree = "<group>"; };
+		4B23AFA42A97953F0034A2E6 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		4B23AFA52A97953F0034A2E6 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		4B23AFA82A979C460034A2E6 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		4B23AFA92A979C460034A2E6 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		4B23AFAF2A97C5070034A2E6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4B23AFB12A97EDF50034A2E6 /* PersonnelLossesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelLossesDTO.swift; sourceTree = "<group>"; };
+		4B23AFB32A97F2720034A2E6 /* EquipmentLossesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesDTO.swift; sourceTree = "<group>"; };
+		4B23AFB52A97F2890034A2E6 /* OryxEquipmentLossesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OryxEquipmentLossesDTO.swift; sourceTree = "<group>"; };
+		4B23AFB82A97F3120034A2E6 /* JSONReaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderService.swift; sourceTree = "<group>"; };
 		4B2DF5232A94B57500427DB5 /* MacPaw Bootcamp Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacPaw Bootcamp Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2DF5262A94B57500427DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2DF5282A94B57500427DB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B2DF52A2A94B57500427DB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B2DF52D2A94B57500427DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B2DF52F2A94B57800427DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2DF5322A94B57800427DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2DF5342A94B57800427DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2DF53A2A94BA0A00427DB5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B2DF53B2A94BA0A00427DB5 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4B2DF5422A94C6B900427DB5 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
+		4B2DF5432A94C6B900427DB5 /* russia_losses_equipment_correction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_correction.json; sourceTree = "<group>"; };
+		4B2DF5442A94C6B900427DB5 /* russia_losses_equipment_oryx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_oryx.json; sourceTree = "<group>"; };
+		4B2DF5452A94C6B900427DB5 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
+		4B5CD9512A9A35CA006E345F /* FormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterProtocol.swift; sourceTree = "<group>"; };
+		4B5CD9532A9A3624006E345F /* PersonelLossesDTOFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonelLossesDTOFormatter.swift; sourceTree = "<group>"; };
+		4B5CD9582A9A65FE006E345F /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		4B5CD9592A9A65FE006E345F /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		4B5CD95C2A9A877B006E345F /* EquipmentLossesDTOFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesDTOFormatter.swift; sourceTree = "<group>"; };
+		4B5CD95E2A9A894A006E345F /* PersonnelLossesPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelLossesPresentationModel.swift; sourceTree = "<group>"; };
+		4B5CD9602A9A8B54006E345F /* EquipmentLossesPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentLossesPresentationModel.swift; sourceTree = "<group>"; };
+		4B5CD9632A9A93B6006E345F /* Optional+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Math.swift"; sourceTree = "<group>"; };
+		4BC093372A9B80E8002889CD /* OryxGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OryxGroupsViewController.swift; sourceTree = "<group>"; };
+		4BC0933A2A9B8141002889CD /* OryxGroupsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OryxGroupsViewModel.swift; sourceTree = "<group>"; };
+		4BC093402A9B8A9B002889CD /* OryxDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OryxDetailsViewController.swift; sourceTree = "<group>"; };
+		4BC093452A9B8D6E002889CD /* OryxDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OryxDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		4BC093462A9B8D6E002889CD /* OryxDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OryxDetailsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +93,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1702782A98D29300C8E4F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B1702792A98D37D00C8E4F9 /* LossesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B23AF9C2A9794AC0034A2E6 /* Losses */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CD9502A9A3597006E345F /* Formatters */,
+				4B1702782A98D29300C8E4F9 /* ViewModel */,
+				4B23AFA22A9795150034A2E6 /* Cells */,
+				4B23AF9E2A9794CB0034A2E6 /* LossesViewController.swift */,
+			);
+			path = Losses;
+			sourceTree = "<group>";
+		};
+		4B23AF9D2A9794B80034A2E6 /* Oryx */ = {
+			isa = PBXGroup;
+			children = (
+				4BC093442A9B8D4C002889CD /* Cell */,
+				4BC093392A9B8131002889CD /* ViewModel */,
+				4BC093372A9B80E8002889CD /* OryxGroupsViewController.swift */,
+				4BC093402A9B8A9B002889CD /* OryxDetailsViewController.swift */,
+			);
+			path = Oryx;
+			sourceTree = "<group>";
+		};
+		4B23AFA22A9795150034A2E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B23AFA42A97953F0034A2E6 /* SwitchTableViewCell.swift */,
+				4B23AFA52A97953F0034A2E6 /* SwitchTableViewCell.xib */,
+				4B23AFA82A979C460034A2E6 /* DatePickerTableViewCell.swift */,
+				4B23AFA92A979C460034A2E6 /* DatePickerTableViewCell.xib */,
+				4B5CD9582A9A65FE006E345F /* DataTableViewCell.swift */,
+				4B5CD9592A9A65FE006E345F /* DataTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B23AFAC2A97C4D80034A2E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B23AFAD2A97C4E70034A2E6 /* Worker */,
+				4B23AFB12A97EDF50034A2E6 /* PersonnelLossesDTO.swift */,
+				4B5CD95E2A9A894A006E345F /* PersonnelLossesPresentationModel.swift */,
+				4B23AFB32A97F2720034A2E6 /* EquipmentLossesDTO.swift */,
+				4B5CD9602A9A8B54006E345F /* EquipmentLossesPresentationModel.swift */,
+				4B23AFB52A97F2890034A2E6 /* OryxEquipmentLossesDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B23AFAD2A97C4E70034A2E6 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				4B23AFB82A97F3120034A2E6 /* JSONReaderService.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		4B23AFAE2A97C4F50034A2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B23AFAF2A97C5070034A2E6 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4B2DF51A2A94B57500427DB5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +184,75 @@
 		4B2DF5252A94B57500427DB5 /* MacPaw Bootcamp Test */ = {
 			isa = PBXGroup;
 			children = (
+				4B5CD9622A9A9394006E345F /* Helpers */,
+				4B23AFAC2A97C4D80034A2E6 /* Model */,
+				4B2DF53E2A94C3F500427DB5 /* Main */,
+				4B23AF9C2A9794AC0034A2E6 /* Losses */,
+				4B23AF9D2A9794B80034A2E6 /* Oryx */,
+				4B2DF5402A94C68100427DB5 /* Resources */,
 				4B2DF5262A94B57500427DB5 /* AppDelegate.swift */,
 				4B2DF5282A94B57500427DB5 /* SceneDelegate.swift */,
-				4B2DF52A2A94B57500427DB5 /* ViewController.swift */,
-				4B2DF52C2A94B57500427DB5 /* Main.storyboard */,
-				4B2DF52F2A94B57800427DB5 /* Assets.xcassets */,
-				4B2DF5312A94B57800427DB5 /* LaunchScreen.storyboard */,
 				4B2DF5342A94B57800427DB5 /* Info.plist */,
 			);
 			path = "MacPaw Bootcamp Test";
+			sourceTree = "<group>";
+		};
+		4B2DF53E2A94C3F500427DB5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B23AFAE2A97C4F50034A2E6 /* ViewModel */,
+				4B2DF53A2A94BA0A00427DB5 /* MainViewController.swift */,
+				4B2DF53B2A94BA0A00427DB5 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4B2DF5402A94C68100427DB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B2DF5432A94C6B900427DB5 /* russia_losses_equipment_correction.json */,
+				4B2DF5442A94C6B900427DB5 /* russia_losses_equipment_oryx.json */,
+				4B2DF5452A94C6B900427DB5 /* russia_losses_equipment.json */,
+				4B2DF5422A94C6B900427DB5 /* russia_losses_personnel.json */,
+				4B2DF52F2A94B57800427DB5 /* Assets.xcassets */,
+				4B2DF5312A94B57800427DB5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B5CD9502A9A3597006E345F /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CD9512A9A35CA006E345F /* FormatterProtocol.swift */,
+				4B5CD9532A9A3624006E345F /* PersonelLossesDTOFormatter.swift */,
+				4B5CD95C2A9A877B006E345F /* EquipmentLossesDTOFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		4B5CD9622A9A9394006E345F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CD9632A9A93B6006E345F /* Optional+Math.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4BC093392A9B8131002889CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0933A2A9B8141002889CD /* OryxGroupsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BC093442A9B8D4C002889CD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4BC093452A9B8D6E002889CD /* OryxDetailsTableViewCell.swift */,
+				4BC093462A9B8D6E002889CD /* OryxDetailsTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +313,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2DF5482A94C6B900427DB5 /* russia_losses_equipment_oryx.json in Resources */,
+				4BC093482A9B8D6E002889CD /* OryxDetailsTableViewCell.xib in Resources */,
+				4B2DF5462A94C6B900427DB5 /* russia_losses_personnel.json in Resources */,
+				4B5CD95B2A9A65FE006E345F /* DataTableViewCell.xib in Resources */,
 				4B2DF5332A94B57800427DB5 /* LaunchScreen.storyboard in Resources */,
+				4B2DF5492A94C6B900427DB5 /* russia_losses_equipment.json in Resources */,
+				4B2DF5472A94C6B900427DB5 /* russia_losses_equipment_correction.json in Resources */,
+				4B23AFA72A97953F0034A2E6 /* SwitchTableViewCell.xib in Resources */,
+				4B2DF53D2A94BA0A00427DB5 /* MainViewController.xib in Resources */,
 				4B2DF5302A94B57800427DB5 /* Assets.xcassets in Resources */,
-				4B2DF52E2A94B57500427DB5 /* Main.storyboard in Resources */,
+				4B23AFAB2A979C460034A2E6 /* DatePickerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +334,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2DF52B2A94B57500427DB5 /* ViewController.swift in Sources */,
+				4B23AFB02A97C5070034A2E6 /* MainViewModel.swift in Sources */,
+				4B23AFB92A97F3120034A2E6 /* JSONReaderService.swift in Sources */,
+				4B2DF53C2A94BA0A00427DB5 /* MainViewController.swift in Sources */,
+				4B5CD9522A9A35CA006E345F /* FormatterProtocol.swift in Sources */,
+				4B5CD95F2A9A894A006E345F /* PersonnelLossesPresentationModel.swift in Sources */,
+				4B5CD9612A9A8B54006E345F /* EquipmentLossesPresentationModel.swift in Sources */,
+				4B5CD9542A9A3624006E345F /* PersonelLossesDTOFormatter.swift in Sources */,
+				4BC093412A9B8A9B002889CD /* OryxDetailsViewController.swift in Sources */,
+				4B23AFB42A97F2720034A2E6 /* EquipmentLossesDTO.swift in Sources */,
+				4B5CD9642A9A93B6006E345F /* Optional+Math.swift in Sources */,
+				4B23AFB22A97EDF50034A2E6 /* PersonnelLossesDTO.swift in Sources */,
+				4B5CD95A2A9A65FE006E345F /* DataTableViewCell.swift in Sources */,
+				4B5CD95D2A9A877B006E345F /* EquipmentLossesDTOFormatter.swift in Sources */,
+				4B23AFA02A9794CB0034A2E6 /* LossesViewController.swift in Sources */,
+				4B23AFA62A97953F0034A2E6 /* SwitchTableViewCell.swift in Sources */,
+				4BC093472A9B8D6E002889CD /* OryxDetailsTableViewCell.swift in Sources */,
+				4BC0933B2A9B8141002889CD /* OryxGroupsViewModel.swift in Sources */,
 				4B2DF5272A94B57500427DB5 /* AppDelegate.swift in Sources */,
 				4B2DF5292A94B57500427DB5 /* SceneDelegate.swift in Sources */,
+				4B17027A2A98D37D00C8E4F9 /* LossesViewModel.swift in Sources */,
+				4B23AFAA2A979C460034A2E6 /* DatePickerTableViewCell.swift in Sources */,
+				4BC093382A9B80E8002889CD /* OryxGroupsViewController.swift in Sources */,
+				4B23AFB62A97F28A0034A2E6 /* OryxEquipmentLossesDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B2DF52C2A94B57500427DB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B2DF52D2A94B57500427DB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B2DF5312A94B57800427DB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +499,6 @@
 				INFOPLIST_FILE = "MacPaw Bootcamp Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +525,6 @@
 				INFOPLIST_FILE = "MacPaw Bootcamp Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
